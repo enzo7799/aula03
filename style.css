@@ -1,9 +1,10 @@
 form {
-  width: 60%;
+  width: 50%;
   background-color: blue;
   font-family: "Lucida Sans";
-  border: yellow;
-  border-radius: 10% 70% 10%;
+  border-style: solid;
+  box-shadow: yellow;
+  border-radius: 10% 10% 10%;
 }
 
 fieldset {
@@ -13,29 +14,32 @@ fieldset {
   padding: 48px;
   font-size: xx-large;
   font-family: "Lucida Sans";
-  border-radius: 10% 70% 10%;
+  border-radius: 10%;
+  background-color: yellow;
+  
 }
 
 body {
-  width: 100%;
+  width: 50%;
   height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://bigslam.pt/wp-content/uploads/2018/03/00.jpeg);
+  background-image: url(https://encrypted-.gstatic.com/images?q=tbn:ANd9GcRSJvw7oxXg_2piq-eKKCA92P1Rco8sdXh3c4MsDuLMUT3uuJ_y5wzjB0ZVpfzp8f0dbwbVL3erlzIsjluC3qnrZRQeEvOkUEtQP6R5iA&s=10);
   width: auto;
-  border-radius: 10% 70% 10%;
+
 }
 button {
   color: rgb(0, 255, 98);
   background-color: violet;
-  font-size: x-large;
+  font-size: xx-large;
   border-bottom: violet;
-  border-radius: 90% 10% 50%;
+  border-radius: initial;
+  border-radius: 10%;
 }
 p {
-  font-size: x-large;
-  color: rgb(0, 255, 64);
+  font-size: xx-large;
+  color: rgb(17, 0, 255);
   font-family: "Franklin Gothic Medium";
   display: flex;
   justify-content: center;

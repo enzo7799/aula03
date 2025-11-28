@@ -95,7 +95,7 @@ function inserirResultado( faixa , resultado) {
 
   paragrafo.innerText = "";
 
-  paragrafo.innerText = `o paciente tem um imc de: ${resultado.toFixed(1)} e esta  ${faixa}`;
+  paragrafo.innerText = `o ${dados.nome} tem um imc de: ${resultado.toFixed(2)} e esta  ${faixa}`;
 }
 // Chamada da função para adicionar / iniciar o monitoramento do evento de submit ao formulário
 capturarDados();
